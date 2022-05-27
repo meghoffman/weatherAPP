@@ -9,13 +9,19 @@
 </head>
 
 <body>
+<div id="outer">
   <h1>Weather App</h1>
   <p>Need to check the weather of a city?  Write the name of the city in the box.</p>
-  <label for="city">City name:</label>
-  <input type ="text" id="city" placeholder="e.g. London" />
-  <button onclick="getWeather()">Current Temp</button>
-  <p id="weather"></p>
-  <p id="temp"></p>
+  <div id="input">
+    <label for="city" id="label">City name:</label>
+    <input type ="text" id="city" placeholder="e.g. London" />
+    <button onclick="getWeather()">Current Temp</button>
+  </div>
+  <div id="answer">
+    <p id="weather"></p>
+    <p id="temp"></p>
+  </div>
+  </div>
   
   
   
